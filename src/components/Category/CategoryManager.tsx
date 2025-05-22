@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useChallenges } from '../../context/ChallengeContext';
 import CategoryItem from './CategoryItem';
-import { Button } from '../ui/Button';
+import { Button } from '../ui/button';
 import Modal from '../ui/Modal';
 import CategoryForm from './CategoryForm';
 import { Category } from '../../types';
